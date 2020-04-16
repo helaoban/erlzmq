@@ -474,4 +474,8 @@ option_name(rcvtimeo) ->
 option_name(sndtimeo) ->
     ?'ZMQ_SNDTIMEO';
 option_name(ipv4only) ->
-    ?'ZMQ_IPV4ONLY'.
+    ?'ZMQ_IPV4ONLY';
+option_name(req_correlate) ->
+    ?'ZMQ_REQ_CORRELATE';
+option_name(req_relaxed) ->
+    ?'ZMQ_REQ_RELAXED'.
